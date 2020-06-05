@@ -1,0 +1,9 @@
+E:\sen\QUAN_LY_CHUNG_CU\ApartmentManager\bin\Debug\ApartmentManager.exe.config
+E:\sen\QUAN_LY_CHUNG_CU\ApartmentManager\bin\Debug\ApartmentManager.exe
+E:\sen\QUAN_LY_CHUNG_CU\ApartmentManager\bin\Debug\ApartmentManager.pdb
+E:\sen\QUAN_LY_CHUNG_CU\ApartmentManager\obj\Debug\ApartmentManager.csprojAssemblyReference.cache
+E:\sen\QUAN_LY_CHUNG_CU\ApartmentManager\obj\Debug\ApartmentManager.Properties.Resources.resources
+E:\sen\QUAN_LY_CHUNG_CU\ApartmentManager\obj\Debug\ApartmentManager.csproj.GenerateResource.cache
+E:\sen\QUAN_LY_CHUNG_CU\ApartmentManager\obj\Debug\ApartmentManager.csproj.CoreCompileInputs.cache
+E:\sen\QUAN_LY_CHUNG_CU\ApartmentManager\obj\Debug\ApartmentManager.exe
+E:\sen\QUAN_LY_CHUNG_CU\ApartmentManager\obj\Debug\ApartmentManager.pdb

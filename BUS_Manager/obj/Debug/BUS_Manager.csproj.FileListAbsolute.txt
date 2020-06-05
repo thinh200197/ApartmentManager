@@ -1,0 +1,11 @@
+E:\sen\QUAN_LY_CHUNG_CU\ApartmentManager\BUS_Manager\bin\Debug\BUS_Manager.dll
+E:\sen\QUAN_LY_CHUNG_CU\ApartmentManager\BUS_Manager\bin\Debug\BUS_Manager.pdb
+E:\sen\QUAN_LY_CHUNG_CU\ApartmentManager\BUS_Manager\bin\Debug\DAL_Manager.dll
+E:\sen\QUAN_LY_CHUNG_CU\ApartmentManager\BUS_Manager\bin\Debug\DTO_Manager.dll
+E:\sen\QUAN_LY_CHUNG_CU\ApartmentManager\BUS_Manager\bin\Debug\DAL_Manager.pdb
+E:\sen\QUAN_LY_CHUNG_CU\ApartmentManager\BUS_Manager\bin\Debug\DTO_Manager.pdb
+E:\sen\QUAN_LY_CHUNG_CU\ApartmentManager\BUS_Manager\obj\Debug\BUS_Manager.csprojAssemblyReference.cache
+E:\sen\QUAN_LY_CHUNG_CU\ApartmentManager\BUS_Manager\obj\Debug\BUS_Manager.csproj.CoreCompileInputs.cache
+E:\sen\QUAN_LY_CHUNG_CU\ApartmentManager\BUS_Manager\obj\Debug\BUS_Manager.csproj.CopyComplete
+E:\sen\QUAN_LY_CHUNG_CU\ApartmentManager\BUS_Manager\obj\Debug\BUS_Manager.dll
+E:\sen\QUAN_LY_CHUNG_CU\ApartmentManager\BUS_Manager\obj\Debug\BUS_Manager.pdb
