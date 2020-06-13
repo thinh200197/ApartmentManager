@@ -1,6 +1,0 @@
-E:\sen\QUAN_LY_CHUNG_CU\ApartmentManager\DTO_Manager\bin\Debug\DTO_Manager.dll
-E:\sen\QUAN_LY_CHUNG_CU\ApartmentManager\DTO_Manager\bin\Debug\DTO_Manager.pdb
-E:\sen\QUAN_LY_CHUNG_CU\ApartmentManager\DTO_Manager\obj\Debug\DTO_Manager.csproj.CoreCompileInputs.cache
-E:\sen\QUAN_LY_CHUNG_CU\ApartmentManager\DTO_Manager\obj\Debug\DTO_Manager.dll
-E:\sen\QUAN_LY_CHUNG_CU\ApartmentManager\DTO_Manager\obj\Debug\DTO_Manager.pdb
-E:\sen\QUAN_LY_CHUNG_CU\ApartmentManager\DTO_Manager\obj\Debug\DTO_Manager.csprojAssemblyReference.cache

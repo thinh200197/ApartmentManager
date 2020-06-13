@@ -1,9 +1,0 @@
-E:\sen\QUAN_LY_CHUNG_CU\ApartmentManager\DAL_Manager\bin\Debug\DAL_Manager.dll
-E:\sen\QUAN_LY_CHUNG_CU\ApartmentManager\DAL_Manager\bin\Debug\DAL_Manager.pdb
-E:\sen\QUAN_LY_CHUNG_CU\ApartmentManager\DAL_Manager\bin\Debug\DTO_Manager.dll
-E:\sen\QUAN_LY_CHUNG_CU\ApartmentManager\DAL_Manager\bin\Debug\DTO_Manager.pdb
-E:\sen\QUAN_LY_CHUNG_CU\ApartmentManager\DAL_Manager\obj\Debug\DAL_Manager.csprojAssemblyReference.cache
-E:\sen\QUAN_LY_CHUNG_CU\ApartmentManager\DAL_Manager\obj\Debug\DAL_Manager.csproj.CoreCompileInputs.cache
-E:\sen\QUAN_LY_CHUNG_CU\ApartmentManager\DAL_Manager\obj\Debug\DAL_Manager.csproj.CopyComplete
-E:\sen\QUAN_LY_CHUNG_CU\ApartmentManager\DAL_Manager\obj\Debug\DAL_Manager.dll
-E:\sen\QUAN_LY_CHUNG_CU\ApartmentManager\DAL_Manager\obj\Debug\DAL_Manager.pdb
