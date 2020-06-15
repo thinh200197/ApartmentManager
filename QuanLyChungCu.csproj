@@ -77,6 +77,18 @@
     <Compile Include="frmCommon.Designer.cs">
       <DependentUpon>frmCommon.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmDVCC.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDVCC.Designer.cs">
+      <DependentUpon>frmDVCC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmHD_DVCC.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmHD_DVCC.Designer.cs">
+      <DependentUpon>frmHD_DVCC.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmRecurringService.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -102,6 +114,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmCommon.resx">
       <DependentUpon>frmCommon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDVCC.resx">
+      <DependentUpon>frmDVCC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmHD_DVCC.resx">
+      <DependentUpon>frmHD_DVCC.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmRecurringService.resx">
       <DependentUpon>frmRecurringService.cs</DependentUpon>
