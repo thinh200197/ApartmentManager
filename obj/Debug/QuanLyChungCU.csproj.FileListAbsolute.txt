@@ -62,131 +62,69 @@ D:\QL Chung Cu\ApartmentManager\obj\Debug\QuanLyChungCU.csproj.CopyComplete
 D:\QL Chung Cu\ApartmentManager\obj\Debug\ApartmentManager.exe
 D:\QL Chung Cu\ApartmentManager\obj\Debug\ApartmentManager.pdb
 D:\QL Chung Cu\ApartmentManager\obj\Debug\ApartmentManager.frmBlock.resources
-C:\Users\Admin\Documents\GitHub\ApartmentManager\bin\Debug\ApartmentManager.exe.config
-C:\Users\Admin\Documents\GitHub\ApartmentManager\bin\Debug\ApartmentManager.exe
-C:\Users\Admin\Documents\GitHub\ApartmentManager\bin\Debug\ApartmentManager.pdb
-C:\Users\Admin\Documents\GitHub\ApartmentManager\bin\Debug\Infragistics2.Shared.v11.1.dll
-C:\Users\Admin\Documents\GitHub\ApartmentManager\bin\Debug\Infragistics2.Win.Misc.v11.1.dll
-C:\Users\Admin\Documents\GitHub\ApartmentManager\bin\Debug\Infragistics2.Win.UltraWinEditors.v11.1.dll
-C:\Users\Admin\Documents\GitHub\ApartmentManager\bin\Debug\Infragistics2.Win.UltraWinGrid.v11.1.dll
-C:\Users\Admin\Documents\GitHub\ApartmentManager\bin\Debug\Infragistics2.Win.v11.1.dll
-C:\Users\Admin\Documents\GitHub\ApartmentManager\bin\Debug\DevExpress.Printing.v18.2.Core.dll
-C:\Users\Admin\Documents\GitHub\ApartmentManager\bin\Debug\DevExpress.Sparkline.v18.2.Core.dll
-C:\Users\Admin\Documents\GitHub\ApartmentManager\bin\Debug\DevExpress.Pdf.v18.2.Core.dll
-C:\Users\Admin\Documents\GitHub\ApartmentManager\bin\Debug\DevExpress.Data.v18.2.xml
-C:\Users\Admin\Documents\GitHub\ApartmentManager\bin\Debug\DevExpress.Utils.v18.2.xml
-C:\Users\Admin\Documents\GitHub\ApartmentManager\bin\Debug\DevExpress.XtraEditors.v18.2.xml
-C:\Users\Admin\Documents\GitHub\ApartmentManager\bin\Debug\DevExpress.XtraWizard.v18.2.xml
-C:\Users\Admin\Documents\GitHub\ApartmentManager\bin\Debug\Infragistics2.Shared.v11.1.xml
-C:\Users\Admin\Documents\GitHub\ApartmentManager\bin\Debug\Infragistics2.Win.Misc.v11.1.xml
-C:\Users\Admin\Documents\GitHub\ApartmentManager\bin\Debug\Infragistics2.Win.UltraWinEditors.v11.1.xml
-C:\Users\Admin\Documents\GitHub\ApartmentManager\bin\Debug\Infragistics2.Win.UltraWinGrid.v11.1.xml
-C:\Users\Admin\Documents\GitHub\ApartmentManager\bin\Debug\Infragistics2.Win.v11.1.xml
-C:\Users\Admin\Documents\GitHub\ApartmentManager\bin\Debug\DevExpress.Printing.v18.2.Core.xml
-C:\Users\Admin\Documents\GitHub\ApartmentManager\bin\Debug\DevExpress.Sparkline.v18.2.Core.xml
-C:\Users\Admin\Documents\GitHub\ApartmentManager\bin\Debug\DevExpress.Pdf.v18.2.Core.xml
-C:\Users\Admin\Documents\GitHub\ApartmentManager\bin\Debug\de\DevExpress.Data.v18.2.resources.dll
-C:\Users\Admin\Documents\GitHub\ApartmentManager\bin\Debug\es\DevExpress.Data.v18.2.resources.dll
-C:\Users\Admin\Documents\GitHub\ApartmentManager\bin\Debug\ja\DevExpress.Data.v18.2.resources.dll
-C:\Users\Admin\Documents\GitHub\ApartmentManager\bin\Debug\ru\DevExpress.Data.v18.2.resources.dll
-C:\Users\Admin\Documents\GitHub\ApartmentManager\bin\Debug\de\DevExpress.Utils.v18.2.resources.dll
-C:\Users\Admin\Documents\GitHub\ApartmentManager\bin\Debug\es\DevExpress.Utils.v18.2.resources.dll
-C:\Users\Admin\Documents\GitHub\ApartmentManager\bin\Debug\ja\DevExpress.Utils.v18.2.resources.dll
-C:\Users\Admin\Documents\GitHub\ApartmentManager\bin\Debug\ru\DevExpress.Utils.v18.2.resources.dll
-C:\Users\Admin\Documents\GitHub\ApartmentManager\bin\Debug\de\DevExpress.XtraEditors.v18.2.resources.dll
-C:\Users\Admin\Documents\GitHub\ApartmentManager\bin\Debug\es\DevExpress.XtraEditors.v18.2.resources.dll
-C:\Users\Admin\Documents\GitHub\ApartmentManager\bin\Debug\ja\DevExpress.XtraEditors.v18.2.resources.dll
-C:\Users\Admin\Documents\GitHub\ApartmentManager\bin\Debug\ru\DevExpress.XtraEditors.v18.2.resources.dll
-C:\Users\Admin\Documents\GitHub\ApartmentManager\bin\Debug\de\DevExpress.XtraWizard.v18.2.resources.dll
-C:\Users\Admin\Documents\GitHub\ApartmentManager\bin\Debug\es\DevExpress.XtraWizard.v18.2.resources.dll
-C:\Users\Admin\Documents\GitHub\ApartmentManager\bin\Debug\ja\DevExpress.XtraWizard.v18.2.resources.dll
-C:\Users\Admin\Documents\GitHub\ApartmentManager\bin\Debug\ru\DevExpress.XtraWizard.v18.2.resources.dll
-C:\Users\Admin\Documents\GitHub\ApartmentManager\bin\Debug\de\DevExpress.Printing.v18.2.Core.resources.dll
-C:\Users\Admin\Documents\GitHub\ApartmentManager\bin\Debug\es\DevExpress.Printing.v18.2.Core.resources.dll
-C:\Users\Admin\Documents\GitHub\ApartmentManager\bin\Debug\ja\DevExpress.Printing.v18.2.Core.resources.dll
-C:\Users\Admin\Documents\GitHub\ApartmentManager\bin\Debug\ru\DevExpress.Printing.v18.2.Core.resources.dll
-C:\Users\Admin\Documents\GitHub\ApartmentManager\bin\Debug\de\DevExpress.Sparkline.v18.2.Core.resources.dll
-C:\Users\Admin\Documents\GitHub\ApartmentManager\bin\Debug\es\DevExpress.Sparkline.v18.2.Core.resources.dll
-C:\Users\Admin\Documents\GitHub\ApartmentManager\bin\Debug\ja\DevExpress.Sparkline.v18.2.Core.resources.dll
-C:\Users\Admin\Documents\GitHub\ApartmentManager\bin\Debug\ru\DevExpress.Sparkline.v18.2.Core.resources.dll
-C:\Users\Admin\Documents\GitHub\ApartmentManager\bin\Debug\de\DevExpress.Pdf.v18.2.Core.resources.dll
-C:\Users\Admin\Documents\GitHub\ApartmentManager\bin\Debug\es\DevExpress.Pdf.v18.2.Core.resources.dll
-C:\Users\Admin\Documents\GitHub\ApartmentManager\bin\Debug\ja\DevExpress.Pdf.v18.2.Core.resources.dll
-C:\Users\Admin\Documents\GitHub\ApartmentManager\bin\Debug\ru\DevExpress.Pdf.v18.2.Core.resources.dll
-C:\Users\Admin\Documents\GitHub\ApartmentManager\obj\Debug\QuanLyChungCu.csprojAssemblyReference.cache
-C:\Users\Admin\Documents\GitHub\ApartmentManager\obj\Debug\ApartmentManager.frmBlock.resources
-C:\Users\Admin\Documents\GitHub\ApartmentManager\obj\Debug\ApartmentManager.frmCommon.resources
-C:\Users\Admin\Documents\GitHub\ApartmentManager\obj\Debug\ApartmentManager.frmRecurringService.resources
-C:\Users\Admin\Documents\GitHub\ApartmentManager\obj\Debug\ApartmentManager.frmLayout.resources
-C:\Users\Admin\Documents\GitHub\ApartmentManager\obj\Debug\ApartmentManager.frmLogin.resources
-C:\Users\Admin\Documents\GitHub\ApartmentManager\obj\Debug\ApartmentManager.Properties.Resources.resources
-C:\Users\Admin\Documents\GitHub\ApartmentManager\obj\Debug\QuanLyChungCu.csproj.GenerateResource.cache
-C:\Users\Admin\Documents\GitHub\ApartmentManager\obj\Debug\ApartmentManager.exe.licenses
-C:\Users\Admin\Documents\GitHub\ApartmentManager\obj\Debug\QuanLyChungCu.csproj.CoreCompileInputs.cache
-C:\Users\Admin\Documents\GitHub\ApartmentManager\obj\Debug\QuanLyChungCu.csproj.CopyComplete
-C:\Users\Admin\Documents\GitHub\ApartmentManager\obj\Debug\ApartmentManager.exe
-C:\Users\Admin\Documents\GitHub\ApartmentManager\obj\Debug\ApartmentManager.pdb
-C:\Users\myhan\OneDrive\Documents\GitHub\ApartmentManager\bin\Debug\ApartmentManager.exe.config
-C:\Users\myhan\OneDrive\Documents\GitHub\ApartmentManager\bin\Debug\ApartmentManager.exe
-C:\Users\myhan\OneDrive\Documents\GitHub\ApartmentManager\bin\Debug\ApartmentManager.pdb
-C:\Users\myhan\OneDrive\Documents\GitHub\ApartmentManager\bin\Debug\DevExpress.Printing.v18.2.Core.dll
-C:\Users\myhan\OneDrive\Documents\GitHub\ApartmentManager\bin\Debug\DevExpress.Sparkline.v18.2.Core.dll
-C:\Users\myhan\OneDrive\Documents\GitHub\ApartmentManager\bin\Debug\DevExpress.Pdf.v18.2.Core.dll
-C:\Users\myhan\OneDrive\Documents\GitHub\ApartmentManager\bin\Debug\DevExpress.Data.v18.2.xml
-C:\Users\myhan\OneDrive\Documents\GitHub\ApartmentManager\bin\Debug\DevExpress.Utils.v18.2.xml
-C:\Users\myhan\OneDrive\Documents\GitHub\ApartmentManager\bin\Debug\DevExpress.XtraEditors.v18.2.xml
-C:\Users\myhan\OneDrive\Documents\GitHub\ApartmentManager\bin\Debug\DevExpress.XtraWizard.v18.2.xml
-C:\Users\myhan\OneDrive\Documents\GitHub\ApartmentManager\bin\Debug\Infragistics2.Shared.v11.1.xml
-C:\Users\myhan\OneDrive\Documents\GitHub\ApartmentManager\bin\Debug\Infragistics2.Win.Misc.v11.1.xml
-C:\Users\myhan\OneDrive\Documents\GitHub\ApartmentManager\bin\Debug\Infragistics2.Win.UltraWinEditors.v11.1.xml
-C:\Users\myhan\OneDrive\Documents\GitHub\ApartmentManager\bin\Debug\Infragistics2.Win.UltraWinGrid.v11.1.xml
-C:\Users\myhan\OneDrive\Documents\GitHub\ApartmentManager\bin\Debug\Infragistics2.Win.v11.1.xml
-C:\Users\myhan\OneDrive\Documents\GitHub\ApartmentManager\bin\Debug\DevExpress.Printing.v18.2.Core.xml
-C:\Users\myhan\OneDrive\Documents\GitHub\ApartmentManager\bin\Debug\DevExpress.Sparkline.v18.2.Core.xml
-C:\Users\myhan\OneDrive\Documents\GitHub\ApartmentManager\bin\Debug\DevExpress.Pdf.v18.2.Core.xml
-C:\Users\myhan\OneDrive\Documents\GitHub\ApartmentManager\bin\Debug\de\DevExpress.Data.v18.2.resources.dll
-C:\Users\myhan\OneDrive\Documents\GitHub\ApartmentManager\bin\Debug\es\DevExpress.Data.v18.2.resources.dll
-C:\Users\myhan\OneDrive\Documents\GitHub\ApartmentManager\bin\Debug\ja\DevExpress.Data.v18.2.resources.dll
-C:\Users\myhan\OneDrive\Documents\GitHub\ApartmentManager\bin\Debug\ru\DevExpress.Data.v18.2.resources.dll
-C:\Users\myhan\OneDrive\Documents\GitHub\ApartmentManager\bin\Debug\de\DevExpress.Utils.v18.2.resources.dll
-C:\Users\myhan\OneDrive\Documents\GitHub\ApartmentManager\bin\Debug\es\DevExpress.Utils.v18.2.resources.dll
-C:\Users\myhan\OneDrive\Documents\GitHub\ApartmentManager\bin\Debug\ja\DevExpress.Utils.v18.2.resources.dll
-C:\Users\myhan\OneDrive\Documents\GitHub\ApartmentManager\bin\Debug\ru\DevExpress.Utils.v18.2.resources.dll
-C:\Users\myhan\OneDrive\Documents\GitHub\ApartmentManager\bin\Debug\de\DevExpress.XtraEditors.v18.2.resources.dll
-C:\Users\myhan\OneDrive\Documents\GitHub\ApartmentManager\bin\Debug\es\DevExpress.XtraEditors.v18.2.resources.dll
-C:\Users\myhan\OneDrive\Documents\GitHub\ApartmentManager\bin\Debug\ja\DevExpress.XtraEditors.v18.2.resources.dll
-C:\Users\myhan\OneDrive\Documents\GitHub\ApartmentManager\bin\Debug\ru\DevExpress.XtraEditors.v18.2.resources.dll
-C:\Users\myhan\OneDrive\Documents\GitHub\ApartmentManager\bin\Debug\de\DevExpress.XtraWizard.v18.2.resources.dll
-C:\Users\myhan\OneDrive\Documents\GitHub\ApartmentManager\bin\Debug\es\DevExpress.XtraWizard.v18.2.resources.dll
-C:\Users\myhan\OneDrive\Documents\GitHub\ApartmentManager\bin\Debug\ja\DevExpress.XtraWizard.v18.2.resources.dll
-C:\Users\myhan\OneDrive\Documents\GitHub\ApartmentManager\bin\Debug\ru\DevExpress.XtraWizard.v18.2.resources.dll
-C:\Users\myhan\OneDrive\Documents\GitHub\ApartmentManager\bin\Debug\de\DevExpress.Printing.v18.2.Core.resources.dll
-C:\Users\myhan\OneDrive\Documents\GitHub\ApartmentManager\bin\Debug\es\DevExpress.Printing.v18.2.Core.resources.dll
-C:\Users\myhan\OneDrive\Documents\GitHub\ApartmentManager\bin\Debug\ja\DevExpress.Printing.v18.2.Core.resources.dll
-C:\Users\myhan\OneDrive\Documents\GitHub\ApartmentManager\bin\Debug\ru\DevExpress.Printing.v18.2.Core.resources.dll
-C:\Users\myhan\OneDrive\Documents\GitHub\ApartmentManager\bin\Debug\de\DevExpress.Sparkline.v18.2.Core.resources.dll
-C:\Users\myhan\OneDrive\Documents\GitHub\ApartmentManager\bin\Debug\es\DevExpress.Sparkline.v18.2.Core.resources.dll
-C:\Users\myhan\OneDrive\Documents\GitHub\ApartmentManager\bin\Debug\ja\DevExpress.Sparkline.v18.2.Core.resources.dll
-C:\Users\myhan\OneDrive\Documents\GitHub\ApartmentManager\bin\Debug\ru\DevExpress.Sparkline.v18.2.Core.resources.dll
-C:\Users\myhan\OneDrive\Documents\GitHub\ApartmentManager\bin\Debug\de\DevExpress.Pdf.v18.2.Core.resources.dll
-C:\Users\myhan\OneDrive\Documents\GitHub\ApartmentManager\bin\Debug\es\DevExpress.Pdf.v18.2.Core.resources.dll
-C:\Users\myhan\OneDrive\Documents\GitHub\ApartmentManager\bin\Debug\ja\DevExpress.Pdf.v18.2.Core.resources.dll
-C:\Users\myhan\OneDrive\Documents\GitHub\ApartmentManager\bin\Debug\ru\DevExpress.Pdf.v18.2.Core.resources.dll
-C:\Users\myhan\OneDrive\Documents\GitHub\ApartmentManager\obj\Debug\QuanLyChungCu.csprojAssemblyReference.cache
-C:\Users\myhan\OneDrive\Documents\GitHub\ApartmentManager\obj\Debug\ApartmentManager.frmBlock.resources
-C:\Users\myhan\OneDrive\Documents\GitHub\ApartmentManager\obj\Debug\ApartmentManager.frmCommon.resources
-C:\Users\myhan\OneDrive\Documents\GitHub\ApartmentManager\obj\Debug\ApartmentManager.frmRecurringService.resources
-C:\Users\myhan\OneDrive\Documents\GitHub\ApartmentManager\obj\Debug\ApartmentManager.frmLayout.resources
-C:\Users\myhan\OneDrive\Documents\GitHub\ApartmentManager\obj\Debug\ApartmentManager.frmLogin.resources
-C:\Users\myhan\OneDrive\Documents\GitHub\ApartmentManager\obj\Debug\ApartmentManager.Properties.Resources.resources
-C:\Users\myhan\OneDrive\Documents\GitHub\ApartmentManager\obj\Debug\QuanLyChungCu.csproj.GenerateResource.cache
-C:\Users\myhan\OneDrive\Documents\GitHub\ApartmentManager\obj\Debug\ApartmentManager.exe.licenses
-C:\Users\myhan\OneDrive\Documents\GitHub\ApartmentManager\obj\Debug\QuanLyChungCu.csproj.CopyComplete
-C:\Users\myhan\OneDrive\Documents\GitHub\ApartmentManager\obj\Debug\ApartmentManager.exe
-C:\Users\myhan\OneDrive\Documents\GitHub\ApartmentManager\obj\Debug\ApartmentManager.pdb
-C:\Users\myhan\OneDrive\Documents\GitHub\ApartmentManager\bin\Debug\Infragistics2.Shared.v11.1.dll
-C:\Users\myhan\OneDrive\Documents\GitHub\ApartmentManager\bin\Debug\Infragistics2.Win.Misc.v11.1.dll
-C:\Users\myhan\OneDrive\Documents\GitHub\ApartmentManager\bin\Debug\Infragistics2.Win.UltraWinEditors.v11.1.dll
-C:\Users\myhan\OneDrive\Documents\GitHub\ApartmentManager\bin\Debug\Infragistics2.Win.UltraWinGrid.v11.1.dll
-C:\Users\myhan\OneDrive\Documents\GitHub\ApartmentManager\bin\Debug\Infragistics2.Win.v11.1.dll
-C:\Users\myhan\OneDrive\Documents\GitHub\ApartmentManager\obj\Debug\QuanLyChungCu.csproj.CoreCompileInputs.cache
+D:\QL Chung Cu\ApartmentManager\obj\Debug\ApartmentManager.frmResident.resources
+D:\QL Chung Cu\do an\ApartmentManager\bin\Debug\ApartmentManager.exe.config
+D:\QL Chung Cu\do an\ApartmentManager\bin\Debug\ApartmentManager.exe
+D:\QL Chung Cu\do an\ApartmentManager\bin\Debug\ApartmentManager.pdb
+D:\QL Chung Cu\do an\ApartmentManager\bin\Debug\Infragistics2.Shared.v11.1.dll
+D:\QL Chung Cu\do an\ApartmentManager\bin\Debug\Infragistics2.Win.Misc.v11.1.dll
+D:\QL Chung Cu\do an\ApartmentManager\bin\Debug\Infragistics2.Win.UltraWinEditors.v11.1.dll
+D:\QL Chung Cu\do an\ApartmentManager\bin\Debug\Infragistics2.Win.UltraWinGrid.v11.1.dll
+D:\QL Chung Cu\do an\ApartmentManager\bin\Debug\Infragistics2.Win.v11.1.dll
+D:\QL Chung Cu\do an\ApartmentManager\bin\Debug\DevExpress.Printing.v18.2.Core.dll
+D:\QL Chung Cu\do an\ApartmentManager\bin\Debug\DevExpress.Sparkline.v18.2.Core.dll
+D:\QL Chung Cu\do an\ApartmentManager\bin\Debug\DevExpress.Pdf.v18.2.Core.dll
+D:\QL Chung Cu\do an\ApartmentManager\bin\Debug\DevExpress.Data.v18.2.xml
+D:\QL Chung Cu\do an\ApartmentManager\bin\Debug\DevExpress.Utils.v18.2.xml
+D:\QL Chung Cu\do an\ApartmentManager\bin\Debug\DevExpress.XtraEditors.v18.2.xml
+D:\QL Chung Cu\do an\ApartmentManager\bin\Debug\DevExpress.XtraWizard.v18.2.xml
+D:\QL Chung Cu\do an\ApartmentManager\bin\Debug\Infragistics2.Shared.v11.1.xml
+D:\QL Chung Cu\do an\ApartmentManager\bin\Debug\Infragistics2.Win.Misc.v11.1.xml
+D:\QL Chung Cu\do an\ApartmentManager\bin\Debug\Infragistics2.Win.UltraWinEditors.v11.1.xml
+D:\QL Chung Cu\do an\ApartmentManager\bin\Debug\Infragistics2.Win.UltraWinGrid.v11.1.xml
+D:\QL Chung Cu\do an\ApartmentManager\bin\Debug\Infragistics2.Win.v11.1.xml
+D:\QL Chung Cu\do an\ApartmentManager\bin\Debug\DevExpress.Printing.v18.2.Core.xml
+D:\QL Chung Cu\do an\ApartmentManager\bin\Debug\DevExpress.Sparkline.v18.2.Core.xml
+D:\QL Chung Cu\do an\ApartmentManager\bin\Debug\DevExpress.Pdf.v18.2.Core.xml
+D:\QL Chung Cu\do an\ApartmentManager\bin\Debug\de\DevExpress.Data.v18.2.resources.dll
+D:\QL Chung Cu\do an\ApartmentManager\bin\Debug\es\DevExpress.Data.v18.2.resources.dll
+D:\QL Chung Cu\do an\ApartmentManager\bin\Debug\ja\DevExpress.Data.v18.2.resources.dll
+D:\QL Chung Cu\do an\ApartmentManager\bin\Debug\ru\DevExpress.Data.v18.2.resources.dll
+D:\QL Chung Cu\do an\ApartmentManager\bin\Debug\de\DevExpress.Utils.v18.2.resources.dll
+D:\QL Chung Cu\do an\ApartmentManager\bin\Debug\es\DevExpress.Utils.v18.2.resources.dll
+D:\QL Chung Cu\do an\ApartmentManager\bin\Debug\ja\DevExpress.Utils.v18.2.resources.dll
+D:\QL Chung Cu\do an\ApartmentManager\bin\Debug\ru\DevExpress.Utils.v18.2.resources.dll
+D:\QL Chung Cu\do an\ApartmentManager\bin\Debug\de\DevExpress.XtraEditors.v18.2.resources.dll
+D:\QL Chung Cu\do an\ApartmentManager\bin\Debug\es\DevExpress.XtraEditors.v18.2.resources.dll
+D:\QL Chung Cu\do an\ApartmentManager\bin\Debug\ja\DevExpress.XtraEditors.v18.2.resources.dll
+D:\QL Chung Cu\do an\ApartmentManager\bin\Debug\ru\DevExpress.XtraEditors.v18.2.resources.dll
+D:\QL Chung Cu\do an\ApartmentManager\bin\Debug\de\DevExpress.XtraWizard.v18.2.resources.dll
+D:\QL Chung Cu\do an\ApartmentManager\bin\Debug\es\DevExpress.XtraWizard.v18.2.resources.dll
+D:\QL Chung Cu\do an\ApartmentManager\bin\Debug\ja\DevExpress.XtraWizard.v18.2.resources.dll
+D:\QL Chung Cu\do an\ApartmentManager\bin\Debug\ru\DevExpress.XtraWizard.v18.2.resources.dll
+D:\QL Chung Cu\do an\ApartmentManager\bin\Debug\de\DevExpress.Printing.v18.2.Core.resources.dll
+D:\QL Chung Cu\do an\ApartmentManager\bin\Debug\es\DevExpress.Printing.v18.2.Core.resources.dll
+D:\QL Chung Cu\do an\ApartmentManager\bin\Debug\ja\DevExpress.Printing.v18.2.Core.resources.dll
+D:\QL Chung Cu\do an\ApartmentManager\bin\Debug\ru\DevExpress.Printing.v18.2.Core.resources.dll
+D:\QL Chung Cu\do an\ApartmentManager\bin\Debug\de\DevExpress.Sparkline.v18.2.Core.resources.dll
+D:\QL Chung Cu\do an\ApartmentManager\bin\Debug\es\DevExpress.Sparkline.v18.2.Core.resources.dll
+D:\QL Chung Cu\do an\ApartmentManager\bin\Debug\ja\DevExpress.Sparkline.v18.2.Core.resources.dll
+D:\QL Chung Cu\do an\ApartmentManager\bin\Debug\ru\DevExpress.Sparkline.v18.2.Core.resources.dll
+D:\QL Chung Cu\do an\ApartmentManager\bin\Debug\de\DevExpress.Pdf.v18.2.Core.resources.dll
+D:\QL Chung Cu\do an\ApartmentManager\bin\Debug\es\DevExpress.Pdf.v18.2.Core.resources.dll
+D:\QL Chung Cu\do an\ApartmentManager\bin\Debug\ja\DevExpress.Pdf.v18.2.Core.resources.dll
+D:\QL Chung Cu\do an\ApartmentManager\bin\Debug\ru\DevExpress.Pdf.v18.2.Core.resources.dll
+D:\QL Chung Cu\do an\ApartmentManager\obj\Debug\QuanLyChungCu.csprojAssemblyReference.cache
+D:\QL Chung Cu\do an\ApartmentManager\obj\Debug\ApartmentManager.frmBlock.resources
+D:\QL Chung Cu\do an\ApartmentManager\obj\Debug\ApartmentManager.frmCommon.resources
+D:\QL Chung Cu\do an\ApartmentManager\obj\Debug\ApartmentManager.frmResident.resources
+D:\QL Chung Cu\do an\ApartmentManager\obj\Debug\ApartmentManager.frmRecurringService.resources
+D:\QL Chung Cu\do an\ApartmentManager\obj\Debug\ApartmentManager.frmLayout.resources
+D:\QL Chung Cu\do an\ApartmentManager\obj\Debug\ApartmentManager.frmLogin.resources
+D:\QL Chung Cu\do an\ApartmentManager\obj\Debug\ApartmentManager.Properties.Resources.resources
+D:\QL Chung Cu\do an\ApartmentManager\obj\Debug\QuanLyChungCu.csproj.GenerateResource.cache
+D:\QL Chung Cu\do an\ApartmentManager\obj\Debug\ApartmentManager.exe.licenses
+D:\QL Chung Cu\do an\ApartmentManager\obj\Debug\QuanLyChungCu.csproj.CoreCompileInputs.cache
+D:\QL Chung Cu\do an\ApartmentManager\obj\Debug\QuanLyChungCu.csproj.CopyComplete
+D:\QL Chung Cu\do an\ApartmentManager\obj\Debug\ApartmentManager.exe
+D:\QL Chung Cu\do an\ApartmentManager\obj\Debug\ApartmentManager.pdb

@@ -12,8 +12,22 @@ namespace ApartmentManager.DAO
     public class DataProvider
     {
         private string connectionSTR = "Data Source=DESKTOP-Q7MMO9N\\SQLEXPRESS;Initial Catalog=DB_QLCC;Integrated Security=True";
-   
-        public DataTable ExecuteQuery(string query,object[] parameter = null)
+        private static DataProvider instance;
+        public static DataProvider Instance
+        {
+            get
+            {
+                if (instance == null)
+                {
+                    instance = new DataProvider();
+                }
+                return instance;
+            } 
+            private set => instance = value;
+        }
+
+        private DataProvider() { }
+        public DataTable ExecuteQuery(string query, object[] parameter = null)
         {
             DataTable data = new DataTable();
 
@@ -39,13 +53,13 @@ namespace ApartmentManager.DAO
                 SqlDataAdapter adapter = new SqlDataAdapter(command);
                 adapter.Fill(data);
                 connection.Close();
-            }           
+            }
             return data;
         }
         public int ExecuteNonQuery(string query, object[] parameter = null)
         {
             int data = 0;
-           using( SqlConnection connection = new SqlConnection(connectionSTR))
+            using (SqlConnection connection = new SqlConnection(connectionSTR))
             {
                 connection.Open();
                 SqlCommand command = new SqlCommand(query, connection);
@@ -66,10 +80,9 @@ namespace ApartmentManager.DAO
 
                 data = command.ExecuteNonQuery();
                 connection.Close();
-            }           
+            }
             return data;
         }
-
         public object ExecuteScalar(string query, object[] parameter = null)
         {
             object data = 0;

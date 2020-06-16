@@ -59,12 +59,14 @@
   <ItemGroup>
     <Compile Include="DAO\AccountDAO.cs" />
     <Compile Include="DAO\BlockDAO.cs" />
+    <Compile Include="DAO\ResidentDAO.cs" />
     <Compile Include="DAO\DataProvider.cs" />
     <Compile Include="DB_QLCCDataSet.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>DB_QLCCDataSet.xsd</DependentUpon>
     </Compile>
+    <Compile Include="DTO\ResidentDTO.cs" />
     <Compile Include="frmBlock.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -77,17 +79,11 @@
     <Compile Include="frmCommon.Designer.cs">
       <DependentUpon>frmCommon.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmDVCC.cs">
+    <Compile Include="frmResident.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmDVCC.Designer.cs">
-      <DependentUpon>frmDVCC.cs</DependentUpon>
-    </Compile>
-    <Compile Include="frmHD_DVCC.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmHD_DVCC.Designer.cs">
-      <DependentUpon>frmHD_DVCC.cs</DependentUpon>
+    <Compile Include="frmResident.Designer.cs">
+      <DependentUpon>frmResident.cs</DependentUpon>
     </Compile>
     <Compile Include="frmRecurringService.cs">
       <SubType>Form</SubType>
@@ -115,11 +111,8 @@
     <EmbeddedResource Include="frmCommon.resx">
       <DependentUpon>frmCommon.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmDVCC.resx">
-      <DependentUpon>frmDVCC.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="frmHD_DVCC.resx">
-      <DependentUpon>frmHD_DVCC.cs</DependentUpon>
+    <EmbeddedResource Include="frmResident.resx">
+      <DependentUpon>frmResident.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmRecurringService.resx">
       <DependentUpon>frmRecurringService.cs</DependentUpon>
@@ -168,8 +161,6 @@
   <ItemGroup>
     <None Include="Resources\logo.png" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="DTO\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

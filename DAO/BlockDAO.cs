@@ -21,9 +21,8 @@ namespace ApartmentManager.DAO
         public DataTable GetAllBlock()
         {
             string query = "select * from TOANHA";
-            DataProvider dataProvider = new DataProvider();
             DataTable data = new DataTable();
-            data = dataProvider.ExecuteQuery(query);            
+            data = DataProvider.Instance.ExecuteQuery(query);            
             return data;
         }
     }

@@ -16,7 +16,7 @@ namespace ApartmentManager
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmDVCC());
+            Application.Run(new frmLogin());
         }
     }
 }
