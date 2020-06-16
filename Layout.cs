@@ -27,5 +27,17 @@ namespace ApartmentManager
             child.Show();
 
         }
+
+        private void thôngTinCưDânToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmResident child = new frmResident();
+            child.MdiParent = this;
+            child.Show();
+        }
+
+        private void đăngXuấtToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+        }
     }
 }

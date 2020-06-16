@@ -34,5 +34,18 @@ namespace ApartmentManager
 
 
         }
+
+        private void gv_Resident_AfterRowActivate(object sender, EventArgs e)
+        {
+            txt_MaCuDan.Text = "d";
+            var tenCuDan = txt_TenCuDan.Text;
+            var sdt = txt_SDT.Text;
+            var cmnd = txt_CMND.Text;
+            var ngaySinh = dtb_NgaySinh.DateTime.Date;
+        }
+
+        private void gv_Resident_FilterRow(object sender, Infragistics.Win.UltraWinGrid.FilterRowEventArgs e)
+        {
+        }
     }
 }

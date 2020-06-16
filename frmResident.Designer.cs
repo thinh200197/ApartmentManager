@@ -82,7 +82,7 @@
             Infragistics.Win.Appearance appearance5 = new Infragistics.Win.Appearance();
             Infragistics.Win.Appearance appearance11 = new Infragistics.Win.Appearance();
             Infragistics.Win.Appearance appearance9 = new Infragistics.Win.Appearance();
-            this.ultraGrid1 = new Infragistics.Win.UltraWinGrid.UltraGrid();
+            this.gv_Resident = new Infragistics.Win.UltraWinGrid.UltraGrid();
             this.cUDANBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.dB_QLCCDataSet = new ApartmentManager.DB_QLCCDataSet();
             this.txt_MaCuDan = new System.Windows.Forms.TextBox();
@@ -97,18 +97,18 @@
             this.cUDANTableAdapter = new ApartmentManager.DB_QLCCDataSetTableAdapters.CUDANTableAdapter();
             this.dtb_NgaySinh = new Infragistics.Win.UltraWinEditors.UltraDateTimeEditor();
             this.btn_Luu = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.ultraGrid1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gv_Resident)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.cUDANBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dB_QLCCDataSet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dtb_NgaySinh)).BeginInit();
             this.SuspendLayout();
             // 
-            // ultraGrid1
+            // gv_Resident
             // 
-            this.ultraGrid1.DataSource = this.cUDANBindingSource;
+            this.gv_Resident.DataSource = this.cUDANBindingSource;
             appearance1.BackColor = System.Drawing.SystemColors.Window;
             appearance1.BorderColor = System.Drawing.SystemColors.InactiveCaption;
-            this.ultraGrid1.DisplayLayout.Appearance = appearance1;
+            this.gv_Resident.DisplayLayout.Appearance = appearance1;
             ultraGridColumn1.Header.VisiblePosition = 0;
             ultraGridColumn2.Header.VisiblePosition = 1;
             ultraGridColumn3.Header.VisiblePosition = 2;
@@ -185,69 +185,73 @@
             ultraGridColumn33,
             ultraGridColumn34,
             ultraGridColumn35});
-            this.ultraGrid1.DisplayLayout.BandsSerializer.Add(ultraGridBand1);
-            this.ultraGrid1.DisplayLayout.BandsSerializer.Add(ultraGridBand2);
-            this.ultraGrid1.DisplayLayout.BandsSerializer.Add(ultraGridBand3);
-            this.ultraGrid1.DisplayLayout.BandsSerializer.Add(ultraGridBand4);
-            this.ultraGrid1.DisplayLayout.BandsSerializer.Add(ultraGridBand5);
-            this.ultraGrid1.DisplayLayout.BandsSerializer.Add(ultraGridBand6);
-            this.ultraGrid1.DisplayLayout.BorderStyle = Infragistics.Win.UIElementBorderStyle.Solid;
-            this.ultraGrid1.DisplayLayout.CaptionVisible = Infragistics.Win.DefaultableBoolean.False;
+            this.gv_Resident.DisplayLayout.BandsSerializer.Add(ultraGridBand1);
+            this.gv_Resident.DisplayLayout.BandsSerializer.Add(ultraGridBand2);
+            this.gv_Resident.DisplayLayout.BandsSerializer.Add(ultraGridBand3);
+            this.gv_Resident.DisplayLayout.BandsSerializer.Add(ultraGridBand4);
+            this.gv_Resident.DisplayLayout.BandsSerializer.Add(ultraGridBand5);
+            this.gv_Resident.DisplayLayout.BandsSerializer.Add(ultraGridBand6);
+            this.gv_Resident.DisplayLayout.BorderStyle = Infragistics.Win.UIElementBorderStyle.Solid;
+            this.gv_Resident.DisplayLayout.CaptionVisible = Infragistics.Win.DefaultableBoolean.False;
             appearance2.BackColor = System.Drawing.SystemColors.ActiveBorder;
             appearance2.BackColor2 = System.Drawing.SystemColors.ControlDark;
             appearance2.BackGradientStyle = Infragistics.Win.GradientStyle.Vertical;
             appearance2.BorderColor = System.Drawing.SystemColors.Window;
-            this.ultraGrid1.DisplayLayout.GroupByBox.Appearance = appearance2;
+            this.gv_Resident.DisplayLayout.GroupByBox.Appearance = appearance2;
             appearance4.ForeColor = System.Drawing.SystemColors.GrayText;
-            this.ultraGrid1.DisplayLayout.GroupByBox.BandLabelAppearance = appearance4;
-            this.ultraGrid1.DisplayLayout.GroupByBox.BorderStyle = Infragistics.Win.UIElementBorderStyle.Solid;
+            this.gv_Resident.DisplayLayout.GroupByBox.BandLabelAppearance = appearance4;
+            this.gv_Resident.DisplayLayout.GroupByBox.BorderStyle = Infragistics.Win.UIElementBorderStyle.Solid;
             appearance3.BackColor = System.Drawing.SystemColors.ControlLightLight;
             appearance3.BackColor2 = System.Drawing.SystemColors.Control;
             appearance3.BackGradientStyle = Infragistics.Win.GradientStyle.Horizontal;
             appearance3.ForeColor = System.Drawing.SystemColors.GrayText;
-            this.ultraGrid1.DisplayLayout.GroupByBox.PromptAppearance = appearance3;
-            this.ultraGrid1.DisplayLayout.MaxColScrollRegions = 1;
-            this.ultraGrid1.DisplayLayout.MaxRowScrollRegions = 1;
+            this.gv_Resident.DisplayLayout.GroupByBox.PromptAppearance = appearance3;
+            this.gv_Resident.DisplayLayout.MaxColScrollRegions = 1;
+            this.gv_Resident.DisplayLayout.MaxRowScrollRegions = 1;
             appearance7.BackColor = System.Drawing.SystemColors.Window;
             appearance7.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.ultraGrid1.DisplayLayout.Override.ActiveCellAppearance = appearance7;
+            this.gv_Resident.DisplayLayout.Override.ActiveCellAppearance = appearance7;
             appearance10.BackColor = System.Drawing.SystemColors.Highlight;
             appearance10.ForeColor = System.Drawing.SystemColors.HighlightText;
-            this.ultraGrid1.DisplayLayout.Override.ActiveRowAppearance = appearance10;
-            this.ultraGrid1.DisplayLayout.Override.BorderStyleCell = Infragistics.Win.UIElementBorderStyle.Dotted;
-            this.ultraGrid1.DisplayLayout.Override.BorderStyleRow = Infragistics.Win.UIElementBorderStyle.Dotted;
+            this.gv_Resident.DisplayLayout.Override.ActiveRowAppearance = appearance10;
+            this.gv_Resident.DisplayLayout.Override.BorderStyleCell = Infragistics.Win.UIElementBorderStyle.Dotted;
+            this.gv_Resident.DisplayLayout.Override.BorderStyleRow = Infragistics.Win.UIElementBorderStyle.Dotted;
             appearance12.BackColor = System.Drawing.SystemColors.Window;
-            this.ultraGrid1.DisplayLayout.Override.CardAreaAppearance = appearance12;
+            this.gv_Resident.DisplayLayout.Override.CardAreaAppearance = appearance12;
             appearance8.BorderColor = System.Drawing.Color.Silver;
             appearance8.TextTrimming = Infragistics.Win.TextTrimming.EllipsisCharacter;
-            this.ultraGrid1.DisplayLayout.Override.CellAppearance = appearance8;
-            this.ultraGrid1.DisplayLayout.Override.CellClickAction = Infragistics.Win.UltraWinGrid.CellClickAction.EditAndSelectText;
-            this.ultraGrid1.DisplayLayout.Override.CellPadding = 0;
+            this.gv_Resident.DisplayLayout.Override.CellAppearance = appearance8;
+            this.gv_Resident.DisplayLayout.Override.CellClickAction = Infragistics.Win.UltraWinGrid.CellClickAction.EditAndSelectText;
+            this.gv_Resident.DisplayLayout.Override.CellPadding = 0;
             appearance6.BackColor = System.Drawing.SystemColors.Control;
             appearance6.BackColor2 = System.Drawing.SystemColors.ControlDark;
             appearance6.BackGradientAlignment = Infragistics.Win.GradientAlignment.Element;
             appearance6.BackGradientStyle = Infragistics.Win.GradientStyle.Horizontal;
             appearance6.BorderColor = System.Drawing.SystemColors.Window;
-            this.ultraGrid1.DisplayLayout.Override.GroupByRowAppearance = appearance6;
+            this.gv_Resident.DisplayLayout.Override.GroupByRowAppearance = appearance6;
             appearance5.TextHAlignAsString = "Left";
-            this.ultraGrid1.DisplayLayout.Override.HeaderAppearance = appearance5;
-            this.ultraGrid1.DisplayLayout.Override.HeaderClickAction = Infragistics.Win.UltraWinGrid.HeaderClickAction.SortMulti;
-            this.ultraGrid1.DisplayLayout.Override.HeaderStyle = Infragistics.Win.HeaderStyle.WindowsXPCommand;
+            this.gv_Resident.DisplayLayout.Override.HeaderAppearance = appearance5;
+            this.gv_Resident.DisplayLayout.Override.HeaderClickAction = Infragistics.Win.UltraWinGrid.HeaderClickAction.SortMulti;
+            this.gv_Resident.DisplayLayout.Override.HeaderStyle = Infragistics.Win.HeaderStyle.WindowsXPCommand;
             appearance11.BackColor = System.Drawing.SystemColors.Window;
             appearance11.BorderColor = System.Drawing.Color.Silver;
-            this.ultraGrid1.DisplayLayout.Override.RowAppearance = appearance11;
-            this.ultraGrid1.DisplayLayout.Override.RowSelectors = Infragistics.Win.DefaultableBoolean.False;
+            this.gv_Resident.DisplayLayout.Override.RowAppearance = appearance11;
+            this.gv_Resident.DisplayLayout.Override.RowSelectors = Infragistics.Win.DefaultableBoolean.False;
             appearance9.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.ultraGrid1.DisplayLayout.Override.TemplateAddRowAppearance = appearance9;
-            this.ultraGrid1.DisplayLayout.ScrollBounds = Infragistics.Win.UltraWinGrid.ScrollBounds.ScrollToFill;
-            this.ultraGrid1.DisplayLayout.ScrollStyle = Infragistics.Win.UltraWinGrid.ScrollStyle.Immediate;
-            this.ultraGrid1.DisplayLayout.ViewStyleBand = Infragistics.Win.UltraWinGrid.ViewStyleBand.OutlookGroupBy;
-            this.ultraGrid1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.ultraGrid1.Location = new System.Drawing.Point(0, 158);
-            this.ultraGrid1.Name = "ultraGrid1";
-            this.ultraGrid1.Size = new System.Drawing.Size(782, 292);
-            this.ultraGrid1.TabIndex = 0;
-            this.ultraGrid1.Text = "ultraGrid1";
+            this.gv_Resident.DisplayLayout.Override.TemplateAddRowAppearance = appearance9;
+            this.gv_Resident.DisplayLayout.Override.WrapHeaderText = Infragistics.Win.DefaultableBoolean.False;
+            this.gv_Resident.DisplayLayout.ScrollBounds = Infragistics.Win.UltraWinGrid.ScrollBounds.ScrollToFill;
+            this.gv_Resident.DisplayLayout.ScrollStyle = Infragistics.Win.UltraWinGrid.ScrollStyle.Immediate;
+            this.gv_Resident.DisplayLayout.ViewStyle = Infragistics.Win.UltraWinGrid.ViewStyle.SingleBand;
+            this.gv_Resident.DisplayLayout.ViewStyleBand = Infragistics.Win.UltraWinGrid.ViewStyleBand.OutlookGroupBy;
+            this.gv_Resident.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.gv_Resident.Location = new System.Drawing.Point(0, 137);
+            this.gv_Resident.Name = "gv_Resident";
+            this.gv_Resident.Size = new System.Drawing.Size(552, 313);
+            this.gv_Resident.TabIndex = 0;
+            this.gv_Resident.Text = "ultraGrid1";
+            this.gv_Resident.AfterRowActivate += new System.EventHandler(this.gv_Resident_AfterRowActivate);
+            this.gv_Resident.FilterRow += new Infragistics.Win.UltraWinGrid.FilterRowEventHandler(this.gv_Resident_FilterRow);
             // 
             // cUDANBindingSource
             // 
@@ -326,16 +330,16 @@
             // txt_CMND
             // 
             this.txt_CMND.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_CMND.Location = new System.Drawing.Point(571, 23);
+            this.txt_CMND.Location = new System.Drawing.Point(91, 91);
             this.txt_CMND.Name = "txt_CMND";
-            this.txt_CMND.Size = new System.Drawing.Size(128, 22);
+            this.txt_CMND.Size = new System.Drawing.Size(134, 22);
             this.txt_CMND.TabIndex = 1;
             // 
             // label5
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(518, 26);
+            this.label5.Location = new System.Drawing.Point(12, 94);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(48, 16);
             this.label5.TabIndex = 2;
@@ -354,19 +358,19 @@
             // 
             // btn_Luu
             // 
-            this.btn_Luu.Location = new System.Drawing.Point(23, 106);
+            this.btn_Luu.Location = new System.Drawing.Point(277, 94);
             this.btn_Luu.Name = "btn_Luu";
-            this.btn_Luu.Size = new System.Drawing.Size(69, 37);
+            this.btn_Luu.Size = new System.Drawing.Size(69, 34);
             this.btn_Luu.TabIndex = 4;
             this.btn_Luu.Text = "Lưu";
             this.btn_Luu.UseVisualStyleBackColor = true;
             this.btn_Luu.Click += new System.EventHandler(this.btn_Luu_Click);
             // 
-            // frmCustomer
+            // frmResident
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(782, 450);
+            this.ClientSize = new System.Drawing.Size(552, 450);
             this.Controls.Add(this.btn_Luu);
             this.Controls.Add(this.dtb_NgaySinh);
             this.Controls.Add(this.label5);
@@ -378,13 +382,13 @@
             this.Controls.Add(this.txt_TenCuDan);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.txt_MaCuDan);
-            this.Controls.Add(this.ultraGrid1);
+            this.Controls.Add(this.gv_Resident);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
-            this.Name = "frmCustomer";
+            this.Name = "frmResident";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "THÔNG TIN CƯ DÂN";
             this.Load += new System.EventHandler(this.frmCustomer_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.ultraGrid1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gv_Resident)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.cUDANBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dB_QLCCDataSet)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dtb_NgaySinh)).EndInit();
@@ -395,7 +399,7 @@
 
         #endregion
 
-        private Infragistics.Win.UltraWinGrid.UltraGrid ultraGrid1;
+        private Infragistics.Win.UltraWinGrid.UltraGrid gv_Resident;
         private System.Windows.Forms.TextBox txt_MaCuDan;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox txt_TenCuDan;
