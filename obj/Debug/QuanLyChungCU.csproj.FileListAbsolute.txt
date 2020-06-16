@@ -128,3 +128,4 @@ D:\QL Chung Cu\do an\ApartmentManager\obj\Debug\QuanLyChungCu.csproj.CoreCompile
 D:\QL Chung Cu\do an\ApartmentManager\obj\Debug\QuanLyChungCu.csproj.CopyComplete
 D:\QL Chung Cu\do an\ApartmentManager\obj\Debug\ApartmentManager.exe
 D:\QL Chung Cu\do an\ApartmentManager\obj\Debug\ApartmentManager.pdb
+D:\QL Chung Cu\do an\ApartmentManager\obj\Debug\ApartmentManager.frmRegisteredResident.resources
