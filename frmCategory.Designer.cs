@@ -53,6 +53,18 @@
             Infragistics.Win.Appearance appearance23 = new Infragistics.Win.Appearance();
             Infragistics.Win.Appearance appearance24 = new Infragistics.Win.Appearance();
             Infragistics.Win.Appearance appearance25 = new Infragistics.Win.Appearance();
+            Infragistics.Win.UltraWinGrid.UltraGridBand ultraGridBand1 = new Infragistics.Win.UltraWinGrid.UltraGridBand("BIENBANVIPHAM", -1);
+            Infragistics.Win.UltraWinGrid.UltraGridColumn ultraGridColumn36 = new Infragistics.Win.UltraWinGrid.UltraGridColumn("MABIENBAN");
+            Infragistics.Win.UltraWinGrid.UltraGridColumn ultraGridColumn37 = new Infragistics.Win.UltraWinGrid.UltraGridColumn("TENBIENBAN");
+            Infragistics.Win.UltraWinGrid.UltraGridColumn ultraGridColumn38 = new Infragistics.Win.UltraWinGrid.UltraGridColumn("MACUDAN");
+            Infragistics.Win.UltraWinGrid.UltraGridColumn ultraGridColumn39 = new Infragistics.Win.UltraWinGrid.UltraGridColumn("FK_CHITIET_VIPHAM_BIENBANVIPHAM");
+            Infragistics.Win.UltraWinGrid.UltraGridBand ultraGridBand2 = new Infragistics.Win.UltraWinGrid.UltraGridBand("FK_CHITIET_VIPHAM_BIENBANVIPHAM", 0);
+            Infragistics.Win.UltraWinGrid.UltraGridColumn ultraGridColumn40 = new Infragistics.Win.UltraWinGrid.UltraGridColumn("MABIENBAN");
+            Infragistics.Win.UltraWinGrid.UltraGridColumn ultraGridColumn41 = new Infragistics.Win.UltraWinGrid.UltraGridColumn("MAVIPHAM");
+            Infragistics.Win.UltraWinGrid.UltraGridColumn ultraGridColumn42 = new Infragistics.Win.UltraWinGrid.UltraGridColumn("THOIGIAN_VIPHAM");
+            Infragistics.Win.UltraWinGrid.UltraGridColumn ultraGridColumn43 = new Infragistics.Win.UltraWinGrid.UltraGridColumn("SOLANVIPHAM");
+            Infragistics.Win.UltraWinGrid.UltraGridColumn ultraGridColumn44 = new Infragistics.Win.UltraWinGrid.UltraGridColumn("NOIDUNG_VIPHAM");
+            Infragistics.Win.UltraWinGrid.UltraGridColumn ultraGridColumn45 = new Infragistics.Win.UltraWinGrid.UltraGridColumn("HINHTHUCXULY");
             Infragistics.Win.Appearance appearance26 = new Infragistics.Win.Appearance();
             Infragistics.Win.Appearance appearance27 = new Infragistics.Win.Appearance();
             Infragistics.Win.Appearance appearance28 = new Infragistics.Win.Appearance();
@@ -90,6 +102,7 @@
             this.gv_CuDan = new Infragistics.Win.UltraWinGrid.UltraGrid();
             this.tab = new Infragistics.Win.UltraWinTabControl.UltraTabControl();
             this.ultraTabSharedControlsPage1 = new Infragistics.Win.UltraWinTabControl.UltraTabSharedControlsPage();
+            this.dB_QLCCDataSet = new ApartmentManager.DB_QLCCDataSet();
             this.ultraTabPageControl3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.gv_ToaNha)).BeginInit();
             this.ultraTabPageControl4.SuspendLayout();
@@ -100,14 +113,15 @@
             ((System.ComponentModel.ISupportInitialize)(this.gv_CuDan)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.tab)).BeginInit();
             this.tab.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dB_QLCCDataSet)).BeginInit();
             this.SuspendLayout();
             // 
             // ultraTabPageControl3
             // 
             this.ultraTabPageControl3.Controls.Add(this.gv_ToaNha);
-            this.ultraTabPageControl3.Location = new System.Drawing.Point(1, 23);
+            this.ultraTabPageControl3.Location = new System.Drawing.Point(-10000, -10000);
             this.ultraTabPageControl3.Name = "ultraTabPageControl3";
-            this.ultraTabPageControl3.Size = new System.Drawing.Size(604, 370);
+            this.ultraTabPageControl3.Size = new System.Drawing.Size(829, 274);
             // 
             // gv_ToaNha
             // 
@@ -167,7 +181,7 @@
             this.gv_ToaNha.Dock = System.Windows.Forms.DockStyle.Fill;
             this.gv_ToaNha.Location = new System.Drawing.Point(0, 0);
             this.gv_ToaNha.Name = "gv_ToaNha";
-            this.gv_ToaNha.Size = new System.Drawing.Size(604, 370);
+            this.gv_ToaNha.Size = new System.Drawing.Size(829, 274);
             this.gv_ToaNha.TabIndex = 0;
             this.gv_ToaNha.Text = "ultraGrid1";
             // 
@@ -176,7 +190,7 @@
             this.ultraTabPageControl4.Controls.Add(this.gv_Tang);
             this.ultraTabPageControl4.Location = new System.Drawing.Point(-10000, -10000);
             this.ultraTabPageControl4.Name = "ultraTabPageControl4";
-            this.ultraTabPageControl4.Size = new System.Drawing.Size(796, 424);
+            this.ultraTabPageControl4.Size = new System.Drawing.Size(829, 274);
             // 
             // gv_Tang
             // 
@@ -236,22 +250,47 @@
             this.gv_Tang.Dock = System.Windows.Forms.DockStyle.Fill;
             this.gv_Tang.Location = new System.Drawing.Point(0, 0);
             this.gv_Tang.Name = "gv_Tang";
-            this.gv_Tang.Size = new System.Drawing.Size(796, 424);
+            this.gv_Tang.Size = new System.Drawing.Size(829, 274);
             this.gv_Tang.TabIndex = 1;
             this.gv_Tang.Text = "ultraGrid2";
             // 
             // ultraTabPageControl2
             // 
             this.ultraTabPageControl2.Controls.Add(this.gv_CanHo);
-            this.ultraTabPageControl2.Location = new System.Drawing.Point(-10000, -10000);
+            this.ultraTabPageControl2.Location = new System.Drawing.Point(1, 23);
             this.ultraTabPageControl2.Name = "ultraTabPageControl2";
-            this.ultraTabPageControl2.Size = new System.Drawing.Size(796, 424);
+            this.ultraTabPageControl2.Size = new System.Drawing.Size(596, 260);
             // 
             // gv_CanHo
             // 
+            this.gv_CanHo.DataSource = this.dB_QLCCDataSet;
             appearance25.BackColor = System.Drawing.SystemColors.Window;
             appearance25.BorderColor = System.Drawing.SystemColors.InactiveCaption;
             this.gv_CanHo.DisplayLayout.Appearance = appearance25;
+            ultraGridColumn36.Header.VisiblePosition = 0;
+            ultraGridColumn37.Header.VisiblePosition = 1;
+            ultraGridColumn38.Header.VisiblePosition = 2;
+            ultraGridColumn39.Header.VisiblePosition = 3;
+            ultraGridBand1.Columns.AddRange(new object[] {
+            ultraGridColumn36,
+            ultraGridColumn37,
+            ultraGridColumn38,
+            ultraGridColumn39});
+            ultraGridColumn40.Header.VisiblePosition = 0;
+            ultraGridColumn41.Header.VisiblePosition = 1;
+            ultraGridColumn42.Header.VisiblePosition = 2;
+            ultraGridColumn43.Header.VisiblePosition = 3;
+            ultraGridColumn44.Header.VisiblePosition = 4;
+            ultraGridColumn45.Header.VisiblePosition = 5;
+            ultraGridBand2.Columns.AddRange(new object[] {
+            ultraGridColumn40,
+            ultraGridColumn41,
+            ultraGridColumn42,
+            ultraGridColumn43,
+            ultraGridColumn44,
+            ultraGridColumn45});
+            this.gv_CanHo.DisplayLayout.BandsSerializer.Add(ultraGridBand1);
+            this.gv_CanHo.DisplayLayout.BandsSerializer.Add(ultraGridBand2);
             this.gv_CanHo.DisplayLayout.BorderStyle = Infragistics.Win.UIElementBorderStyle.Solid;
             this.gv_CanHo.DisplayLayout.CaptionVisible = Infragistics.Win.DefaultableBoolean.False;
             appearance26.BackColor = System.Drawing.SystemColors.ActiveBorder;
@@ -305,7 +344,7 @@
             this.gv_CanHo.Dock = System.Windows.Forms.DockStyle.Fill;
             this.gv_CanHo.Location = new System.Drawing.Point(0, 0);
             this.gv_CanHo.Name = "gv_CanHo";
-            this.gv_CanHo.Size = new System.Drawing.Size(796, 424);
+            this.gv_CanHo.Size = new System.Drawing.Size(596, 260);
             this.gv_CanHo.TabIndex = 1;
             this.gv_CanHo.Text = "ultraGrid3";
             // 
@@ -314,7 +353,7 @@
             this.ultraTabPageControl1.Controls.Add(this.gv_CuDan);
             this.ultraTabPageControl1.Location = new System.Drawing.Point(-10000, -10000);
             this.ultraTabPageControl1.Name = "ultraTabPageControl1";
-            this.ultraTabPageControl1.Size = new System.Drawing.Size(796, 424);
+            this.ultraTabPageControl1.Size = new System.Drawing.Size(829, 274);
             // 
             // gv_CuDan
             // 
@@ -374,7 +413,7 @@
             this.gv_CuDan.Dock = System.Windows.Forms.DockStyle.Fill;
             this.gv_CuDan.Location = new System.Drawing.Point(0, 0);
             this.gv_CuDan.Name = "gv_CuDan";
-            this.gv_CuDan.Size = new System.Drawing.Size(796, 424);
+            this.gv_CuDan.Size = new System.Drawing.Size(829, 274);
             this.gv_CuDan.TabIndex = 1;
             this.gv_CuDan.Text = "ultraGrid4";
             // 
@@ -389,7 +428,7 @@
             this.tab.Location = new System.Drawing.Point(0, 0);
             this.tab.Name = "tab";
             this.tab.SharedControlsPage = this.ultraTabSharedControlsPage1;
-            this.tab.Size = new System.Drawing.Size(608, 396);
+            this.tab.Size = new System.Drawing.Size(600, 286);
             this.tab.TabIndex = 0;
             ultraTab3.TabPage = this.ultraTabPageControl3;
             ultraTab3.Text = "Tòa Nhà";
@@ -409,15 +448,22 @@
             // 
             this.ultraTabSharedControlsPage1.Location = new System.Drawing.Point(-10000, -10000);
             this.ultraTabSharedControlsPage1.Name = "ultraTabSharedControlsPage1";
-            this.ultraTabSharedControlsPage1.Size = new System.Drawing.Size(604, 370);
+            this.ultraTabSharedControlsPage1.Size = new System.Drawing.Size(596, 260);
+            // 
+            // dB_QLCCDataSet
+            // 
+            this.dB_QLCCDataSet.DataSetName = "DB_QLCCDataSet";
+            this.dB_QLCCDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
             // frmCategory
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(608, 396);
+            this.ClientSize = new System.Drawing.Size(600, 286);
             this.Controls.Add(this.tab);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "frmCategory";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "Danh mục";
             this.Load += new System.EventHandler(this.frmCategory_Load);
             this.ultraTabPageControl3.ResumeLayout(false);
@@ -430,6 +476,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.gv_CuDan)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.tab)).EndInit();
             this.tab.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dB_QLCCDataSet)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -446,5 +493,6 @@
         private Infragistics.Win.UltraWinGrid.UltraGrid gv_CuDan;
         private Infragistics.Win.UltraWinGrid.UltraGrid gv_CanHo;
         private Infragistics.Win.UltraWinGrid.UltraGrid gv_Tang;
+        private DB_QLCCDataSet dB_QLCCDataSet;
     }
 }

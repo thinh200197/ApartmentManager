@@ -10,6 +10,9 @@ namespace ApartmentManager
         public frmLayout()
         {
             InitializeComponent();
+
+
+            lbLogin.Text = $"User: { LoggedUser.UserName}";
         }
 
         private bool IsNeedOpen(Type f)
@@ -66,6 +69,11 @@ namespace ApartmentManager
                 var f = this.MdiChildren.FirstOrDefault(child => child.GetType() == typeof(frmRegisteredResident));
                 f.Activate();
             }            
+        }
+
+        private void ultraPictureBox1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

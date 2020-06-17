@@ -25,7 +25,14 @@ namespace ApartmentManager
 
         private void gv_RegisteredResident_ClickCell(object sender, Infragistics.Win.UltraWinGrid.ClickCellEventArgs e)
         {
+            var activeRow = gv_RegisteredResident.ActiveRow;
+            if (activeRow == null)
+                return;
 
+            txt_MaCuDan.Text = activeRow.GetCellValue("MACUDAN").ToString();
+            txt_MaCanHo.Text = activeRow.GetCellValue("MACANHO").ToString();
+            txt_NgayVaoO.Text = activeRow.GetCellValue("NGAYBATDAUO").ToString();
+            txt_NgayHetO.Text = activeRow.GetCellValue("NGAYHETO").ToString();
         }
     }
 }

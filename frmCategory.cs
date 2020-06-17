@@ -23,8 +23,7 @@ namespace ApartmentManager
             gv_ToaNha.DataSource = BlockDAO.Instance.GetAllBlock();
             gv_Tang.DataSource = FloorDAO.Instance.GetAllFloor();
             gv_CanHo.DataSource = ApartmentDAO.Instance.GetAllApartment();
-            gv_CuDan.DataSource = ResidentDAO.Instance.GetAllResident(); ;
-
+            gv_CuDan.DataSource = ResidentDAO.Instance.GetAllResident(); 
         }
     }
 }

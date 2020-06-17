@@ -120,6 +120,7 @@
     <Compile Include="Layout.Designer.cs">
       <DependentUpon>Layout.cs</DependentUpon>
     </Compile>
+    <Compile Include="DTO\LoggedUser.cs" />
     <Compile Include="Login.cs">
       <SubType>Form</SubType>
     </Compile>

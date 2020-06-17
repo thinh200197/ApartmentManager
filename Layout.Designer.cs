@@ -52,6 +52,7 @@
             this.ultraPictureBox2 = new Infragistics.Win.UltraWinEditors.UltraPictureBox();
             this.ultraPictureBox1 = new Infragistics.Win.UltraWinEditors.UltraPictureBox();
             this.lbLogin = new System.Windows.Forms.Label();
+            this.ultraButton1 = new Infragistics.Win.Misc.UltraButton();
             this.menuStrip1.SuspendLayout();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
@@ -111,7 +112,7 @@
             // tìmKiếmCưDânToolStripMenuItem
             // 
             this.tìmKiếmCưDânToolStripMenuItem.Name = "tìmKiếmCưDânToolStripMenuItem";
-            this.tìmKiếmCưDânToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.tìmKiếmCưDânToolStripMenuItem.Size = new System.Drawing.Size(176, 22);
             this.tìmKiếmCưDânToolStripMenuItem.Text = "Tìm kiếm cư dân";
             this.tìmKiếmCưDânToolStripMenuItem.Click += new System.EventHandler(this.tìmKiếmCưDânToolStripMenuItem_Click);
             // 
@@ -181,6 +182,7 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.DarkGray;
+            this.panel1.Controls.Add(this.ultraButton1);
             this.panel1.Controls.Add(this.ultraPictureBox5);
             this.panel1.Controls.Add(this.ultraPictureBox4);
             this.panel1.Controls.Add(this.ultraPictureBox3);
@@ -191,7 +193,7 @@
             this.panel1.Location = new System.Drawing.Point(0, 24);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(718, 62);
-            this.panel1.TabIndex = 1;
+            this.panel1.TabIndex = 2;
             // 
             // ultraPictureBox5
             // 
@@ -237,6 +239,7 @@
             this.ultraPictureBox1.Name = "ultraPictureBox1";
             this.ultraPictureBox1.Size = new System.Drawing.Size(64, 39);
             this.ultraPictureBox1.TabIndex = 2;
+            this.ultraPictureBox1.Click += new System.EventHandler(this.ultraPictureBox1_Click);
             // 
             // lbLogin
             // 
@@ -248,6 +251,14 @@
             this.lbLogin.Size = new System.Drawing.Size(159, 24);
             this.lbLogin.TabIndex = 0;
             this.lbLogin.Text = "Hello : UserName";
+            // 
+            // ultraButton1
+            // 
+            this.ultraButton1.Location = new System.Drawing.Point(387, 8);
+            this.ultraButton1.Name = "ultraButton1";
+            this.ultraButton1.Size = new System.Drawing.Size(64, 39);
+            this.ultraButton1.TabIndex = 6;
+            this.ultraButton1.Text = "Thêm";
             // 
             // frmLayout
             // 
@@ -288,14 +299,15 @@
         private System.Windows.Forms.ToolStripMenuItem tìmKiếmToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem dịchVụCôngCộngToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem tìmKiếmToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem đăngKýDịchVụĐịnhKỳToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem đăngKýDịchVụCôngCộngToolStripMenuItem;
         private System.Windows.Forms.Panel panel1;
-        private Infragistics.Win.UltraWinEditors.UltraPictureBox ultraPictureBox1;
-        private System.Windows.Forms.Label lbLogin;
         private Infragistics.Win.UltraWinEditors.UltraPictureBox ultraPictureBox5;
         private Infragistics.Win.UltraWinEditors.UltraPictureBox ultraPictureBox4;
         private Infragistics.Win.UltraWinEditors.UltraPictureBox ultraPictureBox3;
         private Infragistics.Win.UltraWinEditors.UltraPictureBox ultraPictureBox2;
-        private System.Windows.Forms.ToolStripMenuItem đăngKýDịchVụĐịnhKỳToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem đăngKýDịchVụCôngCộngToolStripMenuItem;
+        private Infragistics.Win.UltraWinEditors.UltraPictureBox ultraPictureBox1;
+        private System.Windows.Forms.Label lbLogin;
+        private Infragistics.Win.Misc.UltraButton ultraButton1;
     }
 }

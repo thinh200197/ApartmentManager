@@ -24,6 +24,8 @@ namespace ApartmentManager
             string passWord = txtPassword.Text;
             if (Login(userName,passWord))
             {
+                LoggedUser.UserName = userName;
+
                 frmLayout frm = new frmLayout();
                 this.Hide();
 
