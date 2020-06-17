@@ -63,5 +63,12 @@ BEGIN
 END
 GO
 
-
-
+CREATE PROCEDURE PR_UpdateResidentApartment
+ @id int ,@MaCuDan varchar(30), @MaCanHo varchar(30), @ngayVaoO date, @ngayHetO date
+AS
+BEGIN	
+	UPDATE [CUDAN-CANHO] 
+	SET MACANHO = @MaCanHo,MACUDAN=@MaCuDan,NGAYBATDAUO =@ngayVaoO,NGAYHETO = @ngayHetO
+	where ID = @id
+END
+GO

@@ -52,7 +52,6 @@
             this.ultraPictureBox2 = new Infragistics.Win.UltraWinEditors.UltraPictureBox();
             this.ultraPictureBox1 = new Infragistics.Win.UltraWinEditors.UltraPictureBox();
             this.lbLogin = new System.Windows.Forms.Label();
-            this.ultraButton1 = new Infragistics.Win.Misc.UltraButton();
             this.menuStrip1.SuspendLayout();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
@@ -182,7 +181,6 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.DarkGray;
-            this.panel1.Controls.Add(this.ultraButton1);
             this.panel1.Controls.Add(this.ultraPictureBox5);
             this.panel1.Controls.Add(this.ultraPictureBox4);
             this.panel1.Controls.Add(this.ultraPictureBox3);
@@ -230,6 +228,7 @@
             this.ultraPictureBox2.Name = "ultraPictureBox2";
             this.ultraPictureBox2.Size = new System.Drawing.Size(64, 39);
             this.ultraPictureBox2.TabIndex = 2;
+            this.ultraPictureBox2.Click += new System.EventHandler(this.ultraPictureBox2_Click);
             // 
             // ultraPictureBox1
             // 
@@ -251,14 +250,6 @@
             this.lbLogin.Size = new System.Drawing.Size(159, 24);
             this.lbLogin.TabIndex = 0;
             this.lbLogin.Text = "Hello : UserName";
-            // 
-            // ultraButton1
-            // 
-            this.ultraButton1.Location = new System.Drawing.Point(387, 8);
-            this.ultraButton1.Name = "ultraButton1";
-            this.ultraButton1.Size = new System.Drawing.Size(64, 39);
-            this.ultraButton1.TabIndex = 6;
-            this.ultraButton1.Text = "Thêm";
             // 
             // frmLayout
             // 
@@ -308,6 +299,5 @@
         private Infragistics.Win.UltraWinEditors.UltraPictureBox ultraPictureBox2;
         private Infragistics.Win.UltraWinEditors.UltraPictureBox ultraPictureBox1;
         private System.Windows.Forms.Label lbLogin;
-        private Infragistics.Win.Misc.UltraButton ultraButton1;
     }
 }

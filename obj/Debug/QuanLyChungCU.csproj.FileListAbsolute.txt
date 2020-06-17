@@ -202,3 +202,10 @@ E:\do an\git\ApartmentManager\bin\Debug\Infragistics2.Win.UltraWinTabControl.v11
 E:\do an\git\ApartmentManager\bin\Debug\Infragistics2.Win.UltraWinTabbedMdi.v11.1.xml
 E:\do an\git\ApartmentManager\bin\Debug\Infragistics2.Win.UltraWinTabControl.v11.1.xml
 E:\do an\git\ApartmentManager\obj\Debug\ApartmentManager.frmCategory.resources
+D:\QL Chung Cu\do an\ApartmentManager\bin\Debug\Infragistics2.Win.UltraWinTabbedMdi.v11.1.dll
+D:\QL Chung Cu\do an\ApartmentManager\bin\Debug\Infragistics2.Win.UltraWinTabControl.v11.1.dll
+D:\QL Chung Cu\do an\ApartmentManager\bin\Debug\Infragistics2.Win.UltraWinTabbedMdi.v11.1.xml
+D:\QL Chung Cu\do an\ApartmentManager\bin\Debug\Infragistics2.Win.UltraWinTabControl.v11.1.xml
+D:\QL Chung Cu\do an\ApartmentManager\obj\Debug\ApartmentManager.frmCategory.resources
+D:\QL Chung Cu\do an\ApartmentManager\obj\Debug\ApartmentManager.frmDVCC.resources
+D:\QL Chung Cu\do an\ApartmentManager\obj\Debug\ApartmentManager.frmHD_DVCC.resources

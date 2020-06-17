@@ -42,6 +42,19 @@ namespace ApartmentManager
             dt.Rows.Add(_ravi);
 
         }
+
+        public virtual void Insert()
+        {
+
+        }
+        public virtual void Update()
+        {
+
+        }
+        public virtual void Delete()
+        {
+
+        }
     }
 
 }

@@ -73,7 +73,19 @@ namespace ApartmentManager
 
         private void ultraPictureBox1_Click(object sender, EventArgs e)
         {
-
+            if (this.ActiveMdiChild != null && this.ActiveMdiChild is frmCommon)
+            {
+                var a = (frmCommon)this.ActiveMdiChild;
+                a.Insert();
+            }                
+        }
+        private void ultraPictureBox2_Click(object sender, EventArgs e)
+        {
+            if (this.ActiveMdiChild != null && this.ActiveMdiChild is frmCommon)
+            {
+                var a = (frmCommon)this.ActiveMdiChild;
+                a.Delete();
+            }
         }
     }
 }
