@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ApartmentManager.DAO;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -18,10 +19,7 @@ namespace ApartmentManager
         }
         private void frmCustomer_Load(object sender, EventArgs e)
         {
-            // TODO: This line of code loads data into the 'dB_QLCCDataSet.CUDAN' table. You can move, or remove it, as needed.
-            this.cUDANTableAdapter.Fill(this.dB_QLCCDataSet.CUDAN);
-
-
+            gv_Resident.DataSource = ResidentDAO.Instance.GetAllResident();
         }
 
         private void btn_Luu_Click(object sender, EventArgs e)

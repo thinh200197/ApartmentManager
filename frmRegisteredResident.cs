@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ApartmentManager.DAO;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -15,6 +16,16 @@ namespace ApartmentManager
         public frmRegisteredResident()
         {
             InitializeComponent();
+        }
+
+        private void frmRegisteredResident_Load(object sender, EventArgs e)
+        {
+            gv_RegisteredResident.DataSource = ResidentApartmentDAO.Instance.GetAllResidentApartment();
+        }
+
+        private void gv_RegisteredResident_ClickCell(object sender, Infragistics.Win.UltraWinGrid.ClickCellEventArgs e)
+        {
+
         }
     }
 }

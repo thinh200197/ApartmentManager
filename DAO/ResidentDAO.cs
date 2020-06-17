@@ -26,7 +26,7 @@ namespace ApartmentManager.DAO
         public List<ResidentDTO> GetAllResident()
         {
             List<ResidentDTO> residentList = new List<ResidentDTO>();
-            string query = "PR_GetAllResidents";
+            string query = "SELECT * FROM CUDAN";
             DataTable data = DataProvider.Instance.ExecuteQuery(query);
             foreach (DataRow item in data.Rows)
             {
@@ -49,6 +49,22 @@ namespace ApartmentManager.DAO
             string query = "PR_InsertResident";
             int data = DataProvider.Instance.ExecuteNonQuery(query);
             return data;
+        }
+
+        public int AddResidentToApartment(string maCanHo,string maCuDan)
+        {
+            string query = "PR_InserResidentApartment  @MaCuDan , @MaCanHo";
+            try
+            {
+                int data = DataProvider.Instance.ExecuteNonQuery(query, new object[] { maCuDan, maCanHo });
+                return data;
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+               
+            
         }
     }
 }

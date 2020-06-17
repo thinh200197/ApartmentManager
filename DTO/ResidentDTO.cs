@@ -9,13 +9,13 @@ namespace ApartmentManager.DTO
 {
     public class ResidentDTO
     {
-        string maCuDan;
-        string tenCuDan;
-        DateTime ngaySinh;
-        string sdt;
-        string cmnd;
+        public string maCuDan;
+        public string tenCuDan;
+        public DateTime ngaySinh;
+        public string sdt;
+        public string cmnd;
 
-        public string MaCuDan { get => MaCuDan; set => MaCuDan = value; }
+        public string MaCuDan { get => maCuDan; set => maCuDan = value; }
         public string TenCuDan { get => tenCuDan; set => tenCuDan = value; }
         public DateTime NgaySinh { get => ngaySinh; set => ngaySinh = value; }
         public string Sdt { get => sdt; set => sdt = value; }

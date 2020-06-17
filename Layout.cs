@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Drawing;
+using System.Linq;
 using System.Windows.Forms;
 
 namespace ApartmentManager
@@ -11,33 +12,60 @@ namespace ApartmentManager
             InitializeComponent();
         }
 
-        private void AddForm(Form frmCurrent)
+        private bool IsNeedOpen(Type f)
         {
-            //plContainer.Controls.Clear();
-            frmCurrent.TopLevel = false;
-            //frmLayout..Controls.Add(frmCurrent);
-            frmCurrent.FormBorderStyle = FormBorderStyle.None;
-            frmCurrent.Dock = DockStyle.Fill;
-            frmCurrent.Show();
-        }
-        private void chungCưToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            frmBlock child = new frmBlock();
-            child.MdiParent = this;
-            child.Show();
-
-        }
-
-        private void thôngTinCưDânToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            frmResident child = new frmResident();
-            child.MdiParent = this;
-            child.Show();
+            return !this.MdiChildren?.Any(child => child.Name == f.Name) ?? false;
         }
 
         private void đăngXuấtToolStripMenuItem_Click(object sender, EventArgs e)
         {
             this.Hide();
+        }
+
+        private void quảnLýChungCưToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (IsNeedOpen(typeof(frmCategory)))
+            {
+                frmCategory child = new frmCategory();
+                child.MdiParent = this;
+                child.Show();
+            }
+            else
+            {
+                var f = this.MdiChildren.FirstOrDefault(child => child.GetType() == typeof(frmCategory));
+                f.Activate();
+            }
+        }
+
+        private void showFormActive(Form f)
+        {
+            var frmType = f.GetType();
+            if (IsNeedOpen(frmType))
+            {
+                frmCategory child = new frmCategory();
+                child.MdiParent = this;
+                child.Show();
+            }
+            else
+            {
+                var frm = this.MdiChildren.FirstOrDefault(child => child.GetType() == frmType);
+                frm.Activate();
+            }
+        }
+
+        private void tìmKiếmCưDânToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (IsNeedOpen(typeof(frmRegisteredResident)))
+            {
+                frmRegisteredResident child = new frmRegisteredResident();
+                child.MdiParent = this;
+                child.Show();
+            }
+            else
+            {
+                var f = this.MdiChildren.FirstOrDefault(child => child.GetType() == typeof(frmRegisteredResident));
+                f.Activate();
+            }            
         }
     }
 }

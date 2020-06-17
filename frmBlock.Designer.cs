@@ -173,6 +173,7 @@
             this.grvBlock.Name = "grvBlock";
             this.grvBlock.Size = new System.Drawing.Size(333, 274);
             this.grvBlock.TabIndex = 19;
+            this.grvBlock.ClickCell += new Infragistics.Win.UltraWinGrid.ClickCellEventHandler(this.grvBlock_ClickCell);
             // 
             // dBQLCCDataSetBindingSource
             // 
